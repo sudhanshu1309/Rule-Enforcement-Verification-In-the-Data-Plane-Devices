@@ -1,30 +1,9 @@
-# Implementing Basic Forwarding
-
-```
-                   +--+
-                   |h4|
-                   ++-+
-                    |
-                    |
-+--+      +--+     ++-+     +--+
-|h1+------+s1+-----+s3+-----+h3|
-+--+      +-++     +--+     +--+
-            |
-            |
-          +-++
-          |s2|
-          +-++
-            |
-            |
-          +-++
-          |h2|
-          +--+
-```
+# Rule-Enforcement-Verification-In-the-Data-Plane-Devices
 
 ## Introduction
 
 The objective of this exercise is to write a P4 program that
-implements basic forwarding. To keep things simple, we will just
+implements Rule-Enforcement-Verification-In-the-Data-Plane-Devices. To keep things simple, we will just
 implement forwarding for IPv4.
 
 With IPv4 forwarding, the switch must perform the following actions
